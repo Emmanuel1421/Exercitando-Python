@@ -1,0 +1,11 @@
+##Q2: Generate Square Dictionary
+##Create a Python function that takes an integer ( n ) as input and generates a dictionary containing pairs ( (i, i^2) ) for all integers ( i ) from 1 to ( n ) (inclusive). The function should then return this dictionary.
+
+def squareGen(n):
+    squareNum = dict()
+    for i in range(1,n):
+        squareNum = {i}
+        print(i,":",i**2)
+    return squareNum
+        
+squareGen(5)
